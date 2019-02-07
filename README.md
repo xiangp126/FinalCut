@@ -14,6 +14,8 @@ scale font png to `85%`
 
 <div align=left><img src="./res/subtitle_position.png" width=60%></div>
 
+or font png to `90%` and put its y position to `-110`
+
 #### open title safe zone
 <div align=left><img src="./res/safe_zone.png" width=60%></div>
 
