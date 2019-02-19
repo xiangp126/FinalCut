@@ -1,6 +1,15 @@
 ## Final Cut Skills
 finalcut pro X 10.4.4
 
+### Contents
+- [ArcTime Manipulation](#arctime)
+- [Apply LetterBox Effect](#applyletterbox)
+- [Logo Addition](#addlogo)
+- [Effect Introduction](#effect)
+- [Transition Introduction](#transition)
+
+
+<a id=arctime></a>
 ### ArcTime Manipulation
 - export subtitle and XML
 
@@ -39,7 +48,7 @@ or `PNG` **90%** and `Y` position **-110px**
 
 - paste attribute to other `PNGs`
 
-`Ctrl-C` the selected `PNG` and `CMD-A` all of them
+`CMD-C` the selected `PNG` and `CMD-A` all of them
 
 <div align=left><img src="./res/paste_attribute.png" width=100%></div>
 
@@ -55,17 +64,43 @@ or `PNG` **90%** and `Y` position **-110px**
 
 <div align=left><img src="./res/dragsubtitle_timeline.png" width=100%></div>
 
+<a id=applyletterbox></a>
+### Apply LetterBox Effect
+- launch effect
 
+`CMD-C` one `Clip` and search `Letterbox` effect
 
-### Add logo
-scale logo size to `21%` and drag it to right position
+**Double Click** `Letterbox`
 
-<div align=left><img src="./res/logo_position.png" width=60%></div>
+<div align=left><img src="./res/applyeffect_letterbox.png" width=100%></div>
 
-### Transition
-- `fade to color`
-- `cross dissolve` (Ctrl - T)
-- `censor` Mosaic
+- adjust parameter
 
+change `Aspect Ratio` from default **1.85:1** to **2.35:1**
 
-Effect -> LetterBox
+<div align=center><img src="./res/adjust_letterbox.png" width=60%></div>
+
+- paste effect to other `Clips`
+
+`CMD-C` the selected `Clip` and `CMD-A` all of them
+
+<div align=center><img src="./res/paste_effect.png" width=60%></div>
+
+<a id=addlogo></a>
+### Logo Addition
+scale `logo` size to **21%** and drag it to the right position
+
+<div align=center><img src="./res/logo.png" width=60%></div>
+
+<a id=effect></a>
+### Effect Introductio
+#### censor
+used for Mosaic
+
+<a id=transition></a>
+### Transition Introduction
+#### cross dissolve
+
+shortcut key: `CMD-T`
+ 
+#### fade to color
