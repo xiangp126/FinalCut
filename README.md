@@ -104,3 +104,5 @@ used for Mosaic
 shortcut key: `CMD-T`
  
 #### fade to color
+
+The black field transition
