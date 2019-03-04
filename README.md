@@ -94,16 +94,27 @@ scale `logo` size to **23%** and drag it to the right position
 <div align=center><img src="./res/logo.png" width=60%></div>
 
 <a id=effect></a>
-### Effect Introductio
-#### censor
+### Effect Introduction
+#### Gaussian
+- Add Shape
+
+<div align=center><img src="./res/gaussian_addshape.png" width=60%></div>
+
+change the shape as you wish
+
+If you want to edit it again after first action, sigle click below **rectangle marked with red**.
+
+<div align=center><img src="./res/gaussian_editshape.png" width=60%></div>
+
+#### Censor
 used for Mosaic
 
 <a id=transition></a>
 ### Transition Introduction
-#### cross dissolve
+#### Cross Dissolve
 
 shortcut key: `CMD-T`
  
-#### fade to color
+#### Fade to Color
 
 The black field transition
