@@ -3,11 +3,11 @@ finalcut pro X 10.4.4
 
 ### Contents
 - [ArcTime Manipulation](#arctime)
+- [Import Subtitle into FinalCut](#importsubtitle)
 - [Apply LetterBox Effect](#applyletterbox)
 - [Logo Addition](#addlogo)
 - [Effect Introduction](#effect)
 - [Transition Introduction](#transition)
-
 
 <a id=arctime></a>
 ### ArcTime Manipulation
@@ -23,6 +23,7 @@ you'd better make a **Separated Directory** to store all the **PNGs** and **XML*
 
 <div align=left><img src="./res/selxml_savedpath.png" width=95%></div>
 
+<a id=importsubtitle></a>
 ### Import Subtitle into FinalCut
 - import xml
 
@@ -88,7 +89,7 @@ change `Aspect Ratio` from default **1.85:1** to **2.35:1**
 
 <a id=addlogo></a>
 ### Logo Addition
-scale `logo` size to **21%** and drag it to the right position
+scale `logo` size to **23%** and drag it to the right position
 
 <div align=center><img src="./res/logo.png" width=60%></div>
 
