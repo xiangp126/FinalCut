@@ -3,6 +3,7 @@ finalcut pro X 10.4.4
 
 ### Contents
 - [ArcTime Manipulation](#arctime)
+- [Change ArcTime Font](#arctimefont)
 - [Import Subtitle into FinalCut](#importsubtitle)
 - [Apply LetterBox Effect](#applyletterbox)
 - [Logo Addition](#addlogo)
@@ -24,6 +25,17 @@ you'd better make a **Separated Directory** to store all the **PNGs** and **XML*
 <div align=left><img src="./res/selxml_savedpath.png" width=95%></div>
 
 <a id=importsubtitle></a>
+
+<a id=arctimefont></a>
+#### Change Font and Stroke
+**Hiragino Sans GB** was the default font, which may be changed to **HYZhengYuan** decorated with **stroke**
+
+<div align=left><img src="./res/HYZY.png" width=95%></div>
+
+Red:**255** Green:**186** Blue:**138**
+
+<div align=left><img src="./res/HYZY_Stroke.jpg" width=95%></div>
+
 ### Import Subtitle into FinalCut
 - import xml
 
