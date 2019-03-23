@@ -15,8 +15,8 @@
 ### 编辑快捷键
 编辑|快捷键|备注
 ---|---|---
-**Set Clip Range** | X | 可用来选取整个源
-Clear Selected Ranges | Alt + X |
+Set Clip Range | X | 可用来选取整个源
+Clear Selected Ranges | Alt + X | 取消选取（与上面相反）
 全选|CMD + A
 选择片段|C|选择时间线中指针下方片段
 复制|CMD + C
