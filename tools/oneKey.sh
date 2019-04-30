@@ -1,5 +1,5 @@
 #!/bin/bash
-file=me.txt
+file=go.txt
 if [[ "$1" != "" ]]; then
     file=$1
 fi
