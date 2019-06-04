@@ -24,7 +24,7 @@ Clear Selected Ranges | Alt + X | 取消选取（与上面相反）
 粘贴|CMD + V|浏览/播放位置插入
 粘贴并连接|Option + V|粘贴选择并将其连接到主要故事情节
 删除|Delete
-替换|Shift + R
+**替换**|**Shift + R**|浏览器中选择源片段，时间线中选需要替换的
 从开始处替换|Option + R
 替换为空隙|Shift + Delete
 切割|CMD + B
