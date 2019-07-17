@@ -12,7 +12,7 @@ sed -i 's/[ \t]*$//' $file
 # del start and trailing comma etc
 sed -i 's/^[，。；,.;]//g' $file
 sed -i 's/[，。；,.;]$//g' $file
-# replace all full stop to comma
+# replace all period and comma to space
 sed -i 's/[。，]/ /g' $file
 # del pos mark
 sed -i 's/【.*】//g' $file
