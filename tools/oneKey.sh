@@ -14,3 +14,6 @@ sed -i 's/^[，。；,.;]//g' $file
 sed -i 's/[，。；,.;]$//g' $file
 # replace all full stop to comma
 sed -i 's/[。，]/ /g' $file
+# del pos mark
+sed -i 's/【.*】//g' $file
+sed -i 's/[.*]//g' $file
