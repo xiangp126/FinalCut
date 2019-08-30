@@ -130,3 +130,7 @@ shortcut key: `CMD-T`
 #### Fade to Color
 
 The black field transition
+
+#### Blurs
+
+Blurs-> Simple
