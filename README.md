@@ -1,5 +1,5 @@
 ## Final Cut Skills
-finalcut pro X 10.4.4
+Final Cut Pro X 10.4.4
 
 ### Contents
 - [ArcTime Manipulation](#arctime)
@@ -128,8 +128,9 @@ used for Mosaic
 shortcut key: `CMD-T`
  
 #### Fade to Color
+- search "fade to"
 
-The black field transition
+- The black field transition
 
 #### Blurs
 
