@@ -121,6 +121,17 @@ If you want to edit it again after first action, sigle click below **rectangle m
 #### Censor
 used for Mosaic
 
+#### Ken Burns
+The Ken Burns effect is a type of panning and zooming effect used in video production from still imagery.
+
+- select the pic and choose crop
+
+<div align=center><img src="./res/select_crop.png" width=90%></div>
+
+- choose `Ken Burns Effect`
+
+<div align=center><img src="./res/ken burns.png" width=90%></div>
+
 <a id=transition></a>
 ### Transition Introduction
 #### Cross Dissolve
