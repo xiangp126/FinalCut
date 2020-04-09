@@ -9,6 +9,7 @@ Final Cut Pro X 10.4.4
 - [Logo Addition](#addlogo)
 - [Effect Introduction](#effect)
 - [Transition Introduction](#transition)
+    - [Fade to Black and hold for some time](#fade2black)
 
 <a id=arctime></a>
 ### ArcTime Manipulation
@@ -135,14 +136,17 @@ The Ken Burns effect is a type of panning and zooming effect used in video produ
 <a id=transition></a>
 ### Transition Introduction
 #### Cross Dissolve
+Shortcut Key: `CMD-T`
 
-shortcut key: `CMD-T`
- 
+<a id=fade2black></a>
+#### Fade to Black and hold for some time
+Add a `Gap`(short cut is Alt + W) between two adjacent clips and typed `Cmd + T` adding Cross Dissolve Transition
+
+<div align=center><img src="./res/fade2black_hold.png" width=100%></div>
+
 #### Fade to Color
-- search "fade to"
-
-- The black field transition
+- Search "fade to"
+- Can be changed to **other colors**
 
 #### Blurs
-
 Blurs-> Simple
