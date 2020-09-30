@@ -49,7 +49,7 @@ addExtraLinesBetEachLine() {
     # Solu 1: sed command
     # sed -i 's/\n\@<!\n\n\@!/\r\r/g' $file
 
-    Solu 2: vim command
+    # Solu 2: vim command
     vim $file +"%s/\n\@<!\n\n\@!/\r\r/g" +"w" +"qa"
 }
 
