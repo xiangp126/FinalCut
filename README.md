@@ -8,6 +8,10 @@ Final Cut Pro X 10.4.4
 - [Apply LetterBox Effect](#applyletterbox)
 - [Logo Addition](#addlogo)
 - [Effect Introduction](#effect)
+    - [Gaussian Blur](#gaussian_blur)
+    - [Censor](#censor)
+    - [Ken Burns](#ken_burns)
+    - [How to change Light in FinalCut](#howto_change_light)
 - [Transition Introduction](#transition)
     - [Fade to Black and hold for some time](#fade2black)
 
@@ -108,7 +112,8 @@ scale `logo` size to **23%** and drag it to the right position
 
 <a id=effect></a>
 ### Effect Introduction
-#### Gaussian
+<a id=gaussian_blur></a>
+#### Gaussian Blur
 - Add Shape
 
 <div align=center><img src="./res/gaussian_addshape.png" width=60%></div>
@@ -119,9 +124,11 @@ If you want to edit it again after first action, sigle click below **rectangle m
 
 <div align=center><img src="./res/gaussian_editshape.png" width=60%></div>
 
+<a id=censor></a>
 #### Censor
-used for Mosaic
+Do You know Mosaic?
 
+<a id=ken_burns></a>
 #### Ken Burns
 The Ken Burns effect is a type of panning and zooming effect used in video production from still imagery.
 
@@ -132,6 +139,17 @@ The Ken Burns effect is a type of panning and zooming effect used in video produ
 - choose `Ken Burns Effect`
 
 <div align=center><img src="./res/ken burns.png" width=90%></div>
+
+<a id=howto_change_light></a>
+#### [How to change Light in FinalCut](https://zhuanlan.zhihu.com/p/33979553)
+
+Two methods to triger:
+
+- `Triangle` in the `Inspector`(**Recommended**)
+
+<div align=center><img src="./res/handle_light_in_FinalCut.png" width=95%></div>
+
+- Effects-> Colrs -> Color Curves
 
 <a id=transition></a>
 ### Transition Introduction
