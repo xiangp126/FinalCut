@@ -30,24 +30,24 @@ _EOF
 
 forArcTime() {
     # del empty line
-    sed -i '/^$/d' $file
+    sed -i '' '/^$/d' $file
     # del start space
-    sed -i 's/^[ \t]*//' $file
+    sed -i '' 's/^[ \t]*//' $file
     # del trailing space
-    sed -i 's/[ \t]*$//' $file
+    sed -i '' 's/[ \t]*$//' $file
     # del start and trailing comma etc
-    sed -i 's/^[，。；,.;]//g' $file
-    sed -i 's/[，。；,.;]$//g' $file
+    sed -i '' 's/^[，。；,.;]//g' $file
+    sed -i '' 's/[，。；,.;]$//g' $file
     # replace all period and comma with space
-    sed -i 's/[。，、]/ /g' $file
+    sed -i '' 's/[。，、]/ /g' $file
     # del pos mark
-    sed -i 's/【.*】//g' $file
-    sed -i 's/[.*]//g' $file
+    sed -i '' 's/【.*】//g' $file
+    sed -i '' 's/[.*]//g' $file
 }
 
 addExtraLinesBetEachLine() {
     # Solu 1: sed command
-    # sed -i 's/\n\@<!\n\n\@!/\r\r/g' $file
+    # sed -i '' 's/\n\@<!\n\n\@!/\r\r/g' $file
 
     # Solu 2: vim command
     vim $file +"%s/\n\@<!\n\n\@!/\r\r/g" +"w" +"qa"
@@ -68,3 +68,11 @@ case $1 in
         exit
         ;;
 esac
+
+# Troubleshooting on Mac OX
+# sed -i 's/megatron/pony/g' /path/to/file.txt
+# sed: 1: "/path/to/file.txt": extra characters at the end of l command
+
+# Solution: Unlike Ubuntu, OS X requires the extension to be explicitly
+# specified. The workaround is to set an empty string:-, you should use
+# sed -i '' 's/megatron/pony/g' /path/to/file.txt
