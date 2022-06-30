@@ -17,6 +17,7 @@ Final Cut Pro X 10.4.4
         - [How to change Light in FinalCut](#howto_change_light)
     - [Transition Introduction](#transition)
         - [Fade to Black and hold for some time](#fade2black)
+    - [Open Library file with older version of FCPX](#exportxml)
     
 <a id=arctime></a>
 ### ArcTime Manipulation
@@ -177,3 +178,14 @@ Add a `Gap`(short cut is Alt + W) between two adjacent clips and typed `Cmd + T`
 
 ##### Blurs
 Blurs-> Simple
+
+<a id=exportxml></a>
+#### Open Library file with older version of FCPX
+
+```
+File -> Export XML -> XML version
+```
+
+choose Previous Version, and then click Save.
+
+Open the saved file on older version of FCPX, and the relink the missing parts. Enjoy!!
