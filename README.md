@@ -1,5 +1,5 @@
 ## Final Cut Skills
-Final Cut Pro X 10.4.4
+Final Cut Pro X `10.4.4`
 
 ### Contents
 - [ArcTime Manipulation](#arctime)
@@ -18,6 +18,7 @@ Final Cut Pro X 10.4.4
     - [Transition Introduction](#transition)
         - [Fade to Black and hold for some time](#fade2black)
     - [Open Library file with older version of FCPX](#exportxml)
+    - [The easiest way to synchronize clips in FCPX](#audiosync)
     
 <a id=arctime></a>
 ### ArcTime Manipulation
@@ -189,3 +190,15 @@ File -> Export XML -> XML version
 choose Previous Version, and then click Save.
 
 Open the saved file on older version of FCPX, and the relink the missing parts. Enjoy!!
+
+<a id=audiosync></a>
+#### The easiest way to synchronize clips in FCPX
+Can be used to replace poor quality audio with higher one for the same content
+
+Select the desired Video (with audio), and then apply
+
+```
+Clip -> Synchronize Clips...
+```
+
+this will create a compounded new file
