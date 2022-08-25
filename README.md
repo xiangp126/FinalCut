@@ -193,12 +193,20 @@ Open the saved file on older version of FCPX, and the relink the missing parts. 
 
 <a id=audiosync></a>
 #### The easiest way to synchronize clips in FCPX
-Can be used to replace poor quality audio with higher one for the same content
+Can be used to Replace low quality audio with High Fidelity audio in the same scene.
 
-Select the desired Video (with audio), and then apply
+<div align=center><img src="./res/synchronized_clip01.png" width=100%></div>
+
+- Select the desired Video (with audio)
+
+- and the HI-FI one simultaneously
+
+- and then apply
 
 ```
 Clip -> Synchronize Clips...
 ```
 
-this will create a compounded new file
+This will create a new **Synchronized Video**
+
+<div align=left><img src="./res/synchronized_clip02.png" width=90%></div>
