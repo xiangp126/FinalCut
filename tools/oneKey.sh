@@ -2,9 +2,9 @@
 # each line no more than 50 char
 
 file=go.txt
-# if [[ "$1" != "" ]]; then
-#     file=$1
-# fi
+if [[ "$2" != "" ]]; then
+    file=$2
+fi
 
 pringUsage() {
     exeName=${0##*/}
@@ -29,6 +29,26 @@ _EOF
 }
 
 forArcTime() {
+    # del the empty line
+    sed -i '' '/^$/d' $file
+    # del the line marked with 说
+    sed -i '' '/^说$/d' $file
+    # del the start space/TAB
+    sed -i '' 's/^[ \t]*//' $file
+    # del the trailing space
+    sed -i '' 's/[ \t]*$//' $file
+    # del the start and trailing commai/etc
+    sed -i '' 's/^[，。；,.;]//g' $file
+    sed -i '' 's/[，。；,.;]$//g' $file
+    # replace all the period and comma with space
+    sed -i '' 's/[。，、]/ /g' $file
+    # del the pos mark. Process the first match, not the greedy match.
+    # refer https://www.cnblogs.com/shenyoo/p/14918429.html
+    sed -i '' 's/【[^】]*】//g' $file
+    sed -i '' 's/\[[^]]*\]//g' $file
+}
+
+forNetEase() {
     # del empty line
     sed -i '' '/^$/d' $file
     # del start space
@@ -58,15 +78,19 @@ case $1 in
         pringUsage
         ;;
 
+    'arctime' | *)
+        forArcTime
+        exit
+        ;;
+
     'notes')
         set -x
         addExtraLinesBetEachLine
         ;;
 
-    'arctime' | *)
+    'netease')
         forArcTime
         exit
-        ;;
 esac
 
 # Troubleshooting on Mac OX
