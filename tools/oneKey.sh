@@ -33,6 +33,7 @@ forArcTime() {
     sed -i '' '/^$/d' $file
     # del the line marked with 说
     sed -i '' '/^说$/d' $file
+    sed -i '' '/^读$/d' $file
     # del the start space/TAB
     sed -i '' 's/^[ \t]*//' $file
     # del the trailing space
