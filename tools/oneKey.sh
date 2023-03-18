@@ -47,6 +47,7 @@ forArcTime() {
     # refer https://www.cnblogs.com/shenyoo/p/14918429.html
     sed -i '' 's/【[^】]*】//g' $file
     sed -i '' 's/\[[^]]*\]//g' $file
+    sed -i '' 's/「[^」]*」//g' $file
 }
 
 forNetEase() {
