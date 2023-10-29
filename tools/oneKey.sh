@@ -48,6 +48,9 @@ forArcTime() {
     sed -i '' 's/【[^】]*】//g' $file
     sed -i '' 's/\[[^]]*\]//g' $file
     sed -i '' 's/「[^」]*」//g' $file
+    sed -i '' 's/（说）//g' $file
+    sed -i '' 's/（读）//g' $file
+
 }
 
 forNetEase() {
